@@ -38,7 +38,10 @@ const Testimonial = () => {
       </div>
 
       <div className='experience'>
-
+        <img src={images.brand01} alt='makeknown' />
+        <img src={images.brand02} alt='Adekunle Omole' />
+        <img src={images.brand03} alt='ibadan tec expo' />
+        <img src={images.brand04} alt='Alalade daniel' />
       </div>
     </div>
   )

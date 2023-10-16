@@ -1,7 +1,6 @@
 .testimonial {
     display: flex;
     gap: 20px;
-    margin-top: 30px;
 }
 
 .testimonial>* {
@@ -52,4 +51,46 @@
     color:#170550;
     font-size: clamp(15px, 3vw, 18px);
     font-weight: 600;
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.experience img {
+    height: 40px;
+    filter: grayscale(100%)
+}
+
+.experience img:hover {
+    filter: grayscale(0)
+}
+
+@media screen and (max-width: 850px) {
+    .testimonial {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 30px;
+    }
+    
+    .testimonial-content {
+        order: 1;
+    }
+
+    .experience img {
+        height: 25px;
+    }
+
+    .experience {
+        flex-wrap: wrap;
+    }
+
+    .testimonial-content {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
 }
