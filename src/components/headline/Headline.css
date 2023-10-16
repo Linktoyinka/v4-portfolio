@@ -1,0 +1,32 @@
+.headline {
+    display: flex;
+}
+
+.headline>* {
+    flex: 1;
+}
+
+.headline-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headline-title div {
+    width: 10%;
+    height: 5px;
+    background: var(--blue);
+}
+
+.headline-title .p-small {
+    color: var(--blue);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 650px) {
+    .headline {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
