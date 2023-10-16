@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   color: var(--blue);
-  font-size: clamp(30px, 5vw, 48px);
+  font-size: clamp(25px, 5vw, 48px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;

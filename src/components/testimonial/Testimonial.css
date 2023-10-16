@@ -1,0 +1,55 @@
+.testimonial {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.testimonial>* {
+    flex: 1;
+}
+
+.testimonial-content p {
+    color: var(--blue);
+}
+
+.icon {
+    color: var(--orange);
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details .p-small {
+    color: #000000a1;
+}
+
+.profile-img {
+    width: 60px;
+    aspect-ratio: 1;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 55px;
+}
+
+.name {
+    color:#170550;
+    font-size: clamp(15px, 3vw, 18px);
+    font-weight: 600;
+}
