@@ -1,0 +1,51 @@
+.footer {
+    background: var(--blue);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.tag {
+    border-radius: 12px;
+    padding: 4px 20px;
+    background: var(--orange);
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+footer .p-small {
+    width: 50%;
+}
+
+.mail-link {
+    margin-top: -5px;
+    color: #F9FAFB;    
+    font-family: Inter;
+    font-size: clamp(20px, 5vw, 36px);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.socials a {
+    font-size: 20px;
+    color: var(--orange);
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+    footer .p-small {
+        width: 100%;
+    }
+}

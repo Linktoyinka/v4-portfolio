@@ -1,14 +1,16 @@
 import React from 'react'
-import { Navbar } from '../../components'
-import { Hero, About } from '../../containers'
+import { Footer, Navbar } from '../../components'
+import { Hero, About, Projects } from '../../containers'
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Navbar />
       <Hero />
       <About />
-    </div>
+      <Projects />
+      <Footer />
+    </main>
   )
 }
 

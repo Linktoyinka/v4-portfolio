@@ -62,7 +62,8 @@
 
 .experience img {
     height: 40px;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    cursor: pointer;
 }
 
 .experience img:hover {
