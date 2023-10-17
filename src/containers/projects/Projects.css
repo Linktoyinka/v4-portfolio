@@ -39,7 +39,6 @@
 
 .work-icon {
     font-size: clamp(17px, 3vw, 20px);
-    margin-top: -25px;
 }
 
 .work-card_content {

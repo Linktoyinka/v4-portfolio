@@ -75,6 +75,20 @@ a {
   padding: 60px 5%;
 }
 
+.sec-btn {
+  padding: 15px 55px;
+  background: var(--orange);
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.sec-btn:hover {
+  color: #fff;
+  background: #f86d03da;
+}
+
 @media screen and (max-width: 650px) {
   .hero-padding {
     padding: 170px 5% 50px 5%;
@@ -82,5 +96,9 @@ a {
 
   .padding {
     padding: 40px 5%;
+  }
+
+  .sec-btn {
+    padding: 10px 35px;
   }
 }

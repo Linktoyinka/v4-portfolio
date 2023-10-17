@@ -19,7 +19,7 @@ const Hero = () => {
           Proven track record of developing successful products for clients in multiple countries. You can check out my work below
         </p>
 
-        <a href='#about'>Scroll down <BsArrowDownShort className='icon'/></a>
+        <a className='hero' href='#about'>Scroll down <BsArrowDownShort className='icon'/></a>
       </div>
 
       <div className='hero-img'>
