@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
 import { BsFilterRight, BsX } from 'react-icons/bs'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import { images } from '../../constants'
 import './Navbar.css'
 
@@ -18,15 +17,8 @@ const Navbar = () => {
                 </a>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-                    {/* <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/recovery'>Recovery</Link> </li>
-                    <li><Link to='/cloud'>Cloud</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li> */}
-                    <p>wertyui</p>
-                    <p>wertyui</p>
-                    <p>wertyui</p>
-                    <p>wertyui</p>
-                    <p>wertyui</p>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/about'>About</Link> </li>
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
                     {!nav ? (<BsFilterRight className='icon' />) : (<BsX className='icon' />)}

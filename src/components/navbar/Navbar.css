@@ -28,11 +28,23 @@
   align-items: center;
   display: flex;
   padding: 1rem;
+  width: 250px;
 }
+
 .navbar li {
-  padding: 1rem;
-  font-weight: 600;
-  color: #fff;
+  font-weight: 500;
+  list-style: none;
+  
+}
+
+.navbar li a  {
+  color: var(--blue);
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+.navbar li a:hover  {
+  color: var(--orange);
 }
 
 .navbar .icon {
