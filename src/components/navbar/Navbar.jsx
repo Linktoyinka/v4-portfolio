@@ -16,7 +16,7 @@ const Navbar = () => {
                     <img src={images.logo} alt='logo' />
                 </a>
 
-                <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
+                <ul className={nav ? 'nav-menu active scale-up-center' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/about'>About</Link> </li>
                 </ul>
