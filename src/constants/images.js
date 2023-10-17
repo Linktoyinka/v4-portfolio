@@ -6,5 +6,8 @@ import brand02 from '../assets/brand02.svg'
 import brand03 from '../assets/brand03.svg'
 import brand04 from '../assets/brand04.png'
 import mdlands from '../assets/mdlands.png'
+import code from '../assets/code.svg'
+import document from '../assets/document.svg'
+import ico from '../assets/ico.svg'
 
-export default { logo, portrait01, tobi, brand01, brand02, brand03, brand04, mdlands };
+export default { logo, portrait01, tobi, brand01, brand02, brand03, brand04, mdlands, code, document, ico };
