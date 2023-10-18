@@ -5,7 +5,7 @@ const Workhero = () => {
   return (
     <section className='hero-padding work-hero'>
       <div className='work-hero-content'>
-        <h2>{`<work />`}</h2>
+        <h2>{`<works />`}</h2>
       </div>
     </section>
   )

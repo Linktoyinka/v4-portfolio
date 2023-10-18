@@ -3,6 +3,12 @@
     gap: 20px;
 }
 
+.home-link {
+    display: grid;
+    place-content: center;
+    margin-top: 40px;
+}
+
 .projects .headline .headline-subtitle h2 {
     width: 50%;
 }

@@ -33,12 +33,9 @@ h2 {
 h3 {
   overflow: hidden;
   color:#FFF;
-  text-overflow: ellipsis;
   font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
+  font-size: clamp(18px, 5vw, 20px);
   font-weight: 600;
-  line-height: 28px;
 }
 
 p {
@@ -75,13 +72,22 @@ a {
   padding: 60px 5%;
 }
 
-.sec-btn {
+.sec-btn, .pri-btn {
   padding: 15px 55px;
   background: var(--orange);
   color: #fff;
   font-family: Lato;
   font-size: 16px;
   font-style: normal;
+}
+
+.pri-btn {
+  background: var(--blue);
+}
+
+.pri-btn:hover {
+  background: #160550da;
+  color: #fff;
 }
 
 .sec-btn:hover {
@@ -104,7 +110,7 @@ a {
     padding: 40px 5%;
   }
 
-  .sec-btn {
+  .sec-btn, .pri-btn {
     padding: 10px 35px;
   }
 

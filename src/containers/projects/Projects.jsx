@@ -3,6 +3,7 @@ import './Projects.css'
 import { Headline } from '../../components'
 import { data } from '../../constants'
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 
 
@@ -27,6 +28,12 @@ const Projects = () => {
             <div className="project-card">
                 {data.works.map((work) => <WorkCard work={work} key={work.projectTitle} />)}
             </div>
+            
+            <div className='home-link'>
+            <Link className='pri-btn' to='/work'>See all</Link>
+            </div>
+            
+
         </section>
     )
 }

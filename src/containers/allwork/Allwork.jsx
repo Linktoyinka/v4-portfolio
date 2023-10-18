@@ -20,7 +20,7 @@ const Allwork = () => {
         <section className='padding allwork'>
 
             <div className="project-card">
-                {data.works.map((work) => <WorkCard work={work} key={work.projectTitle} />)}
+                {data.projects.map((work) => <WorkCard work={work} key={work.projectTitle} />)}
             </div>
         </section>
     )
