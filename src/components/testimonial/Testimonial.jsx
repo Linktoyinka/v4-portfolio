@@ -10,7 +10,7 @@ const Testimonial = () => {
     ));
 
   return (
-    <div className='testimonial'>
+    <div data-aos="fade-up" className='testimonial'>
       <div className='testimonial-content'>
         <div>
             {starIcons}

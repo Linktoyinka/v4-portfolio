@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Afolabi Abdullahi: A Frontend Engineer</title>
+        <title>Afolabi Abdullahi: Frontend Engineer</title>
         <link rel="canonical" href="http://mysite.com/example" />
         <meta property="og:description" content="Afolabi is a skilled and dedicated front-end developer. With a passion for creating beautiful and functional user interfaces." />
         <meta property="og:image" content={images.portrait01} />

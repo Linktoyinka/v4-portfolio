@@ -4,7 +4,7 @@ import { data } from '../../constants'
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const WorkCard = ({ work: { imgUrl, projectTitle, url } }) => (
-    <div className="work-card">
+    <div data-aos="fade-up" className="work-card">
         <div className='workcard-img'>
             <img src={imgUrl} alt="website-shot" />
         </div>

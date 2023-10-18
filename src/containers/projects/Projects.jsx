@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 
 const WorkCard = ({ work: { imgUrl, projectTitle, projectSub, url } }) => (
-    <div className="work-card">
+    <div data-aos="fade-up" className="work-card">
         <div className='workcard-img'>
             <img src={imgUrl} alt="website-shot" />
         </div>

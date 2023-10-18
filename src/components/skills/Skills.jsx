@@ -5,9 +5,9 @@ import { images } from '../../constants'
 const Skills = () => {
   return (
     <section className='padding skills'>
-      <span className='tag'>Skills</span>
+      <span data-aos="fade-up" className='tag'>Skills</span>
 
-      <div className='about-skills'>
+      <div data-aos="fade-up" className='about-skills'>
         <div className='skill-profile'>
 
             <div className='skill-icon'>

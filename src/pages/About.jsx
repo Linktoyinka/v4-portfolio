@@ -20,7 +20,7 @@ const About = () => {
         <Abouthero />
         <section className='padding'><Testimonial/></section>
         <Skills />
-        <section className='padding'><h3 className='about-h3'>I have a profound passion for web, which I bring to life through my work in frontend development and technical writing.</h3></section>
+        <section className='padding'><h3 data-aos="fade-up" className='about-h3'>I have a profound passion for web, which I bring to life through my work in frontend development and technical writing.</h3></section>
         <Footer />
       </main>
     </>
