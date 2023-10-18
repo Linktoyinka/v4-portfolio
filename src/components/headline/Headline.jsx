@@ -3,12 +3,12 @@ import './Headline.css'
 
 const Headline = ({ title, subtitle}) => {
   return (
-    <div data-aos="fade-up" className='headline'>
-        <div className='headline-title'>
+    <div className='headline'>
+        <div data-aos="fade-up" className='headline-title'>
             <div></div> <p className='p-small'>{title}</p>
         </div>
 
-        <div className='headline-subtitle'>
+        <div data-aos="fade-up" className='headline-subtitle'>
             <h2>{subtitle}</h2>
         </div>
     </div>

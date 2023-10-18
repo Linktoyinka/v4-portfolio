@@ -29,8 +29,8 @@ const Projects = () => {
                 {data.works.map((work) => <WorkCard work={work} key={work.projectTitle} />)}
             </div>
             
-            <div className='home-link'>
-            <Link className='pri-btn' to='/work'>See all</Link>
+            <div data-aos="fade-up" className='home-link'>
+                <Link className='pri-btn' to='/work' onClick={() => window.scrollTo(0, 0)}>See all</Link>
             </div>
             
 

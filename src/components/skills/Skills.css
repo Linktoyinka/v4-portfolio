@@ -52,12 +52,13 @@
     .skill-profile {
         flex-direction: column;
         gap: 10px;
+        text-align: center;
     }
     
     .about-skills {
         flex-direction: column;
         gap: 40px;
-        /* align-items: center; */
+        align-items: center;
     }
 
     .skill-icon img {

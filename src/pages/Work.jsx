@@ -11,9 +11,8 @@ const Home = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Works: Afolabi Abdullahi</title>
-        <link rel="canonical" href="http://mysite.com/example" />
         <meta property="og:description" content="Bringing stellar results for every client." />
-        <meta property="og:image" content={images.portrait01} />
+        <meta property="og:image" content={images.ogimage} />
       </Helmet>
       
       <main>

@@ -7,8 +7,8 @@ const Skills = () => {
     <section className='padding skills'>
       <span data-aos="fade-up" className='tag'>Skills</span>
 
-      <div data-aos="fade-up" className='about-skills'>
-        <div className='skill-profile'>
+      <div className='about-skills'>
+        <div  data-aos="fade-up" className='skill-profile'>
 
             <div className='skill-icon'>
                 <img src={images.code} alt='code' />
@@ -25,7 +25,7 @@ const Skills = () => {
             </div>
         </div>
 
-        <div className='skill-profile'>
+        <div  data-aos="fade-up" className='skill-profile'>
             <div className='skill-icon'>
                 <img src={images.document} alt='code' />
             </div>
@@ -41,7 +41,7 @@ const Skills = () => {
             </div>
         </div>
 
-        <div className='skill-profile'>
+        <div  data-aos="fade-up" className='skill-profile'>
             <div className='skill-icon'>
                 <img src={images.ico} alt='code' />
             </div>

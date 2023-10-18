@@ -16,5 +16,6 @@ import qrnaty from '../assets/qrnaty.png'
 import makeknown from '../assets/makeknown.png'
 import danpd from '../assets/danpd.png'
 import adekunle from '../assets/adekunle.png'
+import ogimage from '../assets/ogimage.png'
 
-export default { logo, portrait01, tobi, brand01, brand02, brand03, brand04, mdlands, code, document, ico, gericht, gpt3, ite, qrnaty, makeknown, danpd, adekunle };
+export default { logo, portrait01, tobi, brand01, brand02, brand03, brand04, mdlands, code, document, ico, gericht, gpt3, ite, qrnaty, makeknown, danpd, adekunle, ogimage };

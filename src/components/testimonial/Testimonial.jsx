@@ -10,8 +10,8 @@ const Testimonial = () => {
     ));
 
   return (
-    <div data-aos="fade-up" className='testimonial'>
-      <div className='testimonial-content'>
+    <div className='testimonial'>
+      <div data-aos="fade-up" className='testimonial-content'>
         <div>
             {starIcons}
         </div>
@@ -37,7 +37,7 @@ const Testimonial = () => {
         </div>
       </div>
 
-      <div className='experience'>
+      <div  data-aos="fade-up" className='experience'>
         <img src={images.brand01} alt='makeknown' />
         <img src={images.brand02} alt='Adekunle Omole' />
         <img src={images.brand03} alt='ibadan tec expo' />
