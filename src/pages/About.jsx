@@ -1,8 +1,8 @@
 import React from 'react'
-import { Footer, Navbar, Skills, Testimonial } from '../../components'
-import { Abouthero } from '../../containers'
+import { Footer, Navbar, Skills, Testimonial } from '../components'
+import { Abouthero } from '../containers'
 import { Helmet } from 'react-helmet'
-import { images } from '../../constants'
+import { images } from '../constants'
 
 const About = () => {
   return (
@@ -20,6 +20,7 @@ const About = () => {
         <Abouthero />
         <section className='padding'><Testimonial/></section>
         <Skills />
+        <section className='padding'><h3 className='about-h3'>I have a profound passion for web, which I bring to life through my work in frontend development and technical writing.</h3></section>
         <Footer />
       </main>
     </>

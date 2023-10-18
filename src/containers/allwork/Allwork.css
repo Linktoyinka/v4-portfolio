@@ -1,0 +1,17 @@
+.allwork .work-card {
+    min-width: 30%;
+}
+
+.allwork .project-card {
+    gap: 20px;
+}
+
+.allwork-link {
+    color: var(--blue);
+}
+
+@media screen and (max-width:650px) {
+    .allwork .work-card {
+        min-width: 100%;
+    }
+}

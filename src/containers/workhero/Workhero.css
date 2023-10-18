@@ -1,0 +1,19 @@
+.work-hero {
+    background-color: var(--blue);
+}
+
+.work-hero-content {
+    display: grid;
+    place-content: center;
+    margin-top: 50px;
+}
+
+.work-hero-content h2 {
+    color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+    .work-hero-content {
+        margin-top: 0;
+    }
+}

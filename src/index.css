@@ -89,6 +89,12 @@ a {
   background: #f86d03da;
 }
 
+.about-h3 {
+  color: var(--blue);
+  text-transform: uppercase;
+  width: 50%;
+}
+
 @media screen and (max-width: 650px) {
   .hero-padding {
     padding: 170px 5% 50px 5%;
@@ -100,5 +106,9 @@ a {
 
   .sec-btn {
     padding: 10px 35px;
+  }
+
+  .about-h3 {
+    width: 100%;
   }
 }

@@ -1,28 +1,23 @@
 import React from 'react'
-import './Projects.css'
-import { Headline } from '../../components'
+import './Allwork.css'
 import { data } from '../../constants'
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
-
-
-const WorkCard = ({ work: { imgUrl, projectTitle, projectSub, url } }) => (
+const WorkCard = ({ work: { imgUrl, projectTitle, url } }) => (
     <div className="work-card">
         <div className='workcard-img'>
             <img src={imgUrl} alt="website-shot" />
         </div>
         <div className="work-card_content">
             <h3>{projectTitle}</h3>
-            <p>{projectSub}</p>
-            <a href={url} target='blank'><BsBoxArrowUpRight fontSize={'18px'} className='work-icon'/></a>
+            <a className='allwork-link' href={url} target='blank'><BsBoxArrowUpRight fontSize={'18px'} />Visit website</a>
         </div>
     </div>
 );
 
-const Projects = () => {
+const Allwork = () => {
     return (
-        <section className='padding projects'>
-            <Headline title='work' subtitle='Bringing stellar results for every client.' />
+        <section className='padding allwork'>
 
             <div className="project-card">
                 {data.works.map((work) => <WorkCard work={work} key={work.projectTitle} />)}
@@ -31,4 +26,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Allwork

@@ -19,6 +19,7 @@ const Navbar = () => {
                 <ul className={nav ? 'nav-menu active scale-up-center' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/about'>About</Link></li>
+                    <li><Link to='/work'>Work</Link></li>
                     <li><a href='#contact'>Contact</a></li>
                 </ul>
                 <div className="hamburger" onClick={handleNav}>

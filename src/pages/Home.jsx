@@ -1,8 +1,8 @@
 import React from 'react'
-import { Footer, Navbar } from '../../components'
-import { Hero, About, Projects } from '../../containers'
+import { Footer, Navbar } from '../components'
+import { Hero, About, Projects } from '../containers'
 import { Helmet } from 'react-helmet'
-import { images } from '../../constants'
+import { images } from '../constants'
 
 const Home = () => {
   return (
