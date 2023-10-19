@@ -1,6 +1,6 @@
 import React from 'react'
 import './Abouthero.css'
-import { images } from '../../constants'
+import { images, resume } from '../../constants'
 
 const Abouthero = () => {
   return (
@@ -20,7 +20,7 @@ const Abouthero = () => {
 
           <p data-aos="fade-up">I'm a dedicated Frontend Developer and Technical Writer with a passion for creating exceptional user experiences and making complex ideas accessible. With expertise in a range of web technologies, including ReactJS, Bootstrap, and Tailwind CSS, I bring designs to life with elegance and functionality.</p>
 
-          <a data-aos="fade-up" href='' className='sec-btn' >Download Resume</a>
+          <a data-aos="fade-up" href={resume} target='blank' className='sec-btn' >Download Resumé</a>
         </div>
       </div>
     </section>
