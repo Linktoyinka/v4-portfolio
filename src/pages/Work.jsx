@@ -1,19 +1,12 @@
 import React from 'react'
-import { Footer, Navbar } from '../components'
-import { Helmet } from 'react-helmet'
-import { images } from '../constants'
+import { Footer, Navbar, Seo } from '../components'
 import { Allwork, Workhero } from '../containers'
 
 const Home = () => {
   return (
 
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Works: Afolabi Abdullahi</title>
-        <meta property="og:description" content="Bringing stellar results for every client." />
-        <meta property="og:image" content={images.ogimage} />
-      </Helmet>
+      <Seo title='Works: Afolabi Abdullahi' description='Bringing stellar results for every client.' />
       
       <main>
         <Navbar />
