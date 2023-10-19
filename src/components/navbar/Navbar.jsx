@@ -31,9 +31,10 @@ const Navbar = () => {
   return (
     <nav className="navbar" ref={navRef}>
       <div className="container">
-        <a className="logo" href="/">
+        {/* <a className="logo" href="/">
           <img src={images.logo} alt="logo" />
-        </a>
+        </a> */}
+        <Link className="logo" to="/"><img src={images.logo} alt="logo" /></Link>
 
         <ul className={nav ? "nav-menu active scale-up-center" : "nav-menu"}>
           <li><Link onClick={() => setNav(false)} to="/">Home</Link></li>
