@@ -10,7 +10,7 @@ const Aboutwork = () => {
         </h3>
 
         <div data-aos="fade-up">
-            <Link className='sec-btn' to='/work' onClick={() => window.scrollTo(0, 0)}>See all</Link>
+            <Link className='sec-btn' to='/work' onClick={() => window.scrollTo(0, 0)}>See all projects</Link>
         </div>
     </section>
   )

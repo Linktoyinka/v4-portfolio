@@ -8,7 +8,7 @@ const Hero = () => {
     <section className='home-hero hero-padding'>
       <div className='hero-content'>
         <h1>
-          Afolabi Abdullahi,<br />Frontend developer
+          Abdullahi Afolabi,<br />Frontend developer
         </h1>
 
         <p>

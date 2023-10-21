@@ -6,7 +6,7 @@ const Home = () => {
   return (
 
     <>
-      <Seo title='Afolabi Abdullahi: Frontend Engineer' description='Afolabi is a skilled and dedicated front-end developer. With a passion for creating beautiful and functional user interfaces.' />
+      <Seo title='Abdullahi Afolabi: Frontend Engineer' description='Afolabi is a skilled and dedicated front-end developer. With a passion for creating beautiful and functional user interfaces.' />
       
       <main>
         <Navbar />

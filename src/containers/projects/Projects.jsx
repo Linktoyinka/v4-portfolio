@@ -9,13 +9,15 @@ import { Link } from 'react-router-dom';
 
 const WorkCard = ({ work: { imgUrl, projectTitle, projectSub, url } }) => (
     <div data-aos="fade-up" className="work-card">
-        <div className='workcard-img'>
-            <img src={imgUrl} alt="website-shot" />
-        </div>
-        <div className="work-card_content">
-            <h3>{projectTitle}</h3>
-            <p>{projectSub}</p>
-            <a href={url} target='blank'><BsBoxArrowUpRight fontSize={'18px'} className='work-icon'/></a>
+        <div className='project-card-hover'>
+            <div className='workcard-img'>
+                <img src={imgUrl} alt="website-shot" />
+            </div>
+            <div className="work-card_content">
+                <h3>{projectTitle}</h3>
+                <p>{projectSub}</p>
+                <a href={url} target='blank'><BsBoxArrowUpRight fontSize={'18px'} className='work-icon'/></a>
+            </div>
         </div>
     </div>
 );

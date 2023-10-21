@@ -5,7 +5,7 @@ import { Abouthero, Aboutwork } from '../containers'
 const About = () => {
   return (
     <>
-      <Seo title='About Afolabi Abdullahi' description='Afolabi is a dedicated Frontend Developer and Technical Writer with a passion for creating exceptional user experiences and making complex ideas accessible.' />
+      <Seo title='About Abdullahi Afolabi' description='Afolabi is a dedicated Frontend Developer and Technical Writer with a passion for creating exceptional user experiences and making complex ideas accessible.' />
 
       <main>
         <Navbar />

@@ -6,7 +6,7 @@ const Home = () => {
   return (
 
     <>
-      <Seo title='Works: Afolabi Abdullahi' description='Bringing stellar results for every client.' />
+      <Seo title='Works: Abdullahi Afolabi' description='Bringing stellar results for every client.' />
       
       <main>
         <Navbar />

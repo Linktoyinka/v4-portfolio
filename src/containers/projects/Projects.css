@@ -27,11 +27,15 @@
 
 .work-card {
     border-radius: clamp(8px, 3vw, 15px);
-    border: 1px solid rgba(128, 128, 128, 0.24);
-    transition: all .3s ease;
 }
 
-.work-card:hover {
+.project-card-hover {
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    transition: all .3s ease;    
+    border-radius: clamp(8px, 3vw, 15px);
+}
+
+.project-card-hover:hover {
     box-shadow: 0 0 15px rgba(128, 128, 128, 0.466);
 }
 
