@@ -40,7 +40,7 @@ const Navbar = () => {
           <li><Link onClick={() => setNav(false)} to="/">Home</Link></li>
           <li><Link onClick={() => setNav(false)} to="/about">About</Link></li>
           <li><Link onClick={() => setNav(false)} to="/work">Work</Link></li>
-          <li><a onClick={() => setNav(false)} href="https:blog.afolabi.me" target="blank" >Blog</a></li>
+          <li><a onClick={() => setNav(false)} href="https://blog.afolabi.me" target="blank" >Blog</a></li>
           <li><a onClick={() => setNav(false)} href="#contact">Contact</a></li>
         </ul>
         <div className="hamburger" onClick={handleNav}>
