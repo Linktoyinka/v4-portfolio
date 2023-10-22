@@ -2,6 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import { About, Home, Work } from './pages'
 import TagManager from 'react-gtm-module'
+import { HelmetProvider } from 'react-helmet-async';
 
 const App = () => {
 
@@ -12,12 +13,14 @@ const App = () => {
   TagManager.initialize(tagManagerArgs)
 
   return (
-    <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/work" element={<Work />} />
-      <Route path="*" element={<Home />} />
-    </Routes>
+    <HelmetProvider>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+    </HelmetProvider>
   )
 }
 
