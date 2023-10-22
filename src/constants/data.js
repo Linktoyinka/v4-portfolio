@@ -1,17 +1,17 @@
 import images from "./images"
 
-const works = [
+const works = [    
+    {
+        imgUrl: images.imta,
+        projectTitle: 'ImageBox Tech Academy',
+        projectSub: 'Website showcasing the academy courses and student enrolment. Developed with HTML, CSS and JS',
+        url: `https://imta.com.ng/`
+    },
     {
         imgUrl: images.gericht,
         projectTitle: 'Gericht Reataurant',
         projectSub: 'A website for a USA-Based resturant developed with ReactJS',
         url: `https://gericht-restaurant-ola.netlify.app/`
-    },
-    {
-        imgUrl: images.ite,
-        projectTitle: 'Ibadan Tech Expo',
-        projectSub: 'Website for the largest tech event in Ibadan built with HTML, CSS and JS',
-        url: `https://ibadantechexpo.netlify.app/`
     },
     {
         imgUrl: images.gpt3,
@@ -20,14 +20,21 @@ const works = [
         url: `https://gpt3-ola.netlify.app/`
     },
     {
-        imgUrl: images.qrnaty,
-        projectTitle: 'QR Naty',
-        projectSub: 'Platform for QR Code generating and scanning built with HTML, CSS and JS',
-        url: `https://teamgnatpp.netlify.app/`
+        imgUrl: images.ite,
+        projectTitle: 'Ibadan Tech Expo',
+        projectSub: 'Website for the largest tech event in Ibadan built with HTML, CSS and JS',
+        url: `https://ibadantechexpo.netlify.app/`
     },
 ]
 
 const projects = [
+    
+    {
+        imgUrl: images.imta,
+        projectTitle: 'ImageBox Tech Academy',
+        projectSub: 'Website showcasing the academy courses and student enrolment. Developed with HTML, CSS and JS',
+        url: `https://imta.com.ng/`
+    },
     {
         imgUrl: images.gericht,
         projectTitle: 'Gericht Reataurant',

@@ -71,6 +71,12 @@ a:hover .icon {
     width: 55%;
 }
 
+@media screen and (max-width: 1000px) {
+    .home-hero {
+        height: 500px;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .hero-img img {
         width: 85%;
