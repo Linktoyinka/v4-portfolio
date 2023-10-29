@@ -18,5 +18,6 @@ import danpd from '../assets/danpd.png'
 import adekunle from '../assets/adekunle.png'
 import ogimage from '../assets/ogimage.png'
 import imta from '../assets/imta.png'
+import camp from '../assets/camp.png'
 
-export default { logo, portrait01, tobi, brand01, brand02, brand03, brand04, mdlands, code, document, ico, gericht, gpt3, ite, qrnaty, makeknown, danpd, adekunle, ogimage, imta };
+export default { logo, portrait01, tobi, brand01, brand02, brand03, brand04, mdlands, code, document, ico, gericht, gpt3, ite, qrnaty, makeknown, danpd, adekunle, ogimage, imta, camp };

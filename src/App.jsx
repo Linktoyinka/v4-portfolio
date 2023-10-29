@@ -1,16 +1,9 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import { About, Home, Work } from './pages'
-import TagManager from 'react-gtm-module'
 import { HelmetProvider } from 'react-helmet-async';
 
 const App = () => {
-
-  const tagManagerArgs = {
-    gtmId: 'GTM-PJJCSM'
-  }
-
-  TagManager.initialize(tagManagerArgs)
 
   return (
     <HelmetProvider>

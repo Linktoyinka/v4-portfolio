@@ -2,6 +2,12 @@ import images from "./images"
 
 const works = [    
     {
+        imgUrl: images.camp,
+        projectTitle: 'Camp Direct Travels',
+        projectSub: 'A web project that streamlines the travel booking process. Built with ReactJS',
+        url: `https://www.campdirecttravels.com/`
+    },
+    {
         imgUrl: images.imta,
         projectTitle: 'ImageBox Tech Academy',
         projectSub: 'Website showcasing the academy courses and student enrolment. Developed with HTML, CSS and JS',
@@ -14,12 +20,6 @@ const works = [
         url: `https://gericht-restaurant-ola.netlify.app/`
     },
     {
-        imgUrl: images.gpt3,
-        projectTitle: 'GPT-3 Landing Page',
-        projectSub: 'Fully responsive landing page for GPT-3 developed with ReactJS',
-        url: `https://gpt3-ola.netlify.app/`
-    },
-    {
         imgUrl: images.ite,
         projectTitle: 'Ibadan Tech Expo',
         projectSub: 'Website for the largest tech event in Ibadan built with HTML, CSS and JS',
@@ -29,6 +29,12 @@ const works = [
 
 const projects = [
     
+    {
+        imgUrl: images.camp,
+        projectTitle: 'Camp Direct Travels',
+        projectSub: 'A web project that streamlines the travel booking process. Built with ReactJS',
+        url: `https://www.campdirecttravels.com/`
+    },
     {
         imgUrl: images.imta,
         projectTitle: 'ImageBox Tech Academy',
