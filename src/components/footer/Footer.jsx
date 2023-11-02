@@ -11,7 +11,7 @@ const Footer = () => {
       <p  className='p-small'>
       What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
 
-      <a  href='mailto:linktoyinka@gmail.com' className='mail-link'><HiOutlineMail /> linktoyinka@gmail.com</a>
+      <a  href='mailto:afolabi2401@gmail.com' className='mail-link'><HiOutlineMail /> afolabi2401@gmail.com</a>
 
       <p className='p-small'>You may also find me on these platforms!</p>
       <div  className='socials'>
