@@ -23,6 +23,7 @@
 .project-card .work-card {
     flex: 1;
     min-width: 40%;
+    max-width: 50%;
 }
 
 .work-card {
